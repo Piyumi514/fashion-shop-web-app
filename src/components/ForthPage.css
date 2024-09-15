@@ -1,0 +1,109 @@
+.forth-page {
+    background-color: #3e2e26;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .bestseller-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 100px;
+  }
+  
+  .bestseller-text {
+    flex: 1;
+  }
+  
+  .bestseller-text h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .bestseller-text p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #b8a99b;
+  }
+  
+  .see-more {
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .see-more:hover {
+    background-color: #fff;
+    color: #3e2e26;
+  }
+  
+  .bestseller-products {
+    display: flex;
+    gap: 30px;
+    flex: 3;
+  }
+  
+  .product-card {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    color: #333;
+    text-align: center;
+    width: 280px;
+  
+    transition: transform 0.3s ease; /* Add a transition effect for the hover state */
+  }
+
+  .product-card:hover {
+    transform: scale(1.05); /* Scale up the card on hover */
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensures the image is cropped while keeping its aspect ratio */ 
+  }
+  
+  .product-details {
+    padding: 20px;
+  }
+  
+  .product-title {
+    font-size: 20px;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: 400px;
+  }
+  
+  .product-details {
+    padding: 20px;
+  }
+  
+  .product-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .product-price {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .old-price {
+    text-decoration: line-through;
+    color: #b8a99b;
+    margin-right: 10px;
+  }
+  
+  .product-rating {
+    color: #f7b500;
+    font-size: 14px;
+  }
+  

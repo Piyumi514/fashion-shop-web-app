@@ -1,0 +1,76 @@
+.last-page {
+    background-color: white;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .box {
+    padding: 10px;
+    border-radius: 10px; /* Optional: adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    width: 200px; /* Set a fixed width for all boxes */
+    height: 300px; /* Set a fixed height for all boxes */
+    text-align: center; /* Center the image within the box */
+    background-color: white;
+  }
+  
+  .image1 {
+    background-color: #f8c2c2; /* Light pink */
+  }
+  
+  .image2 {
+    background-color: #c2f0c2; /* Light green */
+  }
+  
+  .image3 {
+    background-color: #c2d9f0; /* Light blue */
+  }
+  
+  .image4 {
+    background-color: #f0e4c2; /* Light yellow */
+  }
+  
+  .image5 {
+    background-color: #e4c2f0; /* Light purple */
+  }
+  
+  .box img {
+    width: 100%; /* Forces the image to take up the full width of the box */
+    height: 100%; /* Forces the image to take up the full height of the box */
+    object-fit: cover; /* Ensures the image covers the box, cropping if necessary while maintaining aspect ratio */
+    border-radius: 8px; /* Optional: adds rounded corners to the image */
+  }
+  
+  .fashion-img {
+    width: 150px; /* Adjust the width according to your design */
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .footer {
+    background-color: #3f2a29;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .footer-links {
+    margin: 10px 0;
+  }
+  
+  .footer-links a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,78 @@
+.seventh-page {
+    padding: 50px 20px; /* Top/Bottom: 50px, Left/Right: 20px */
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 36px;
+    color: #423d39;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+    color: #8f8f8f;
+    margin-bottom: 40px;
+  }
+  
+  .testimonial-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-left: 20px; /* Left padding */
+    padding-right: 20px; /* Right padding */
+  }
+  
+/* Existing styles */
+.testimonial-box {
+    background-color: #f8f4f0;
+    padding: 40px;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    min-height: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition effects for scale and shadow */
+  }
+  
+  /* Adding hover effect */
+  .testimonial-box:hover {
+    transform: scale(1.05); /* Slightly enlarges the box on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25); /* Increases the shadow on hover */
+  }
+  
+  /* Adding transition to buttons (if needed) */
+  button {
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for color changes */
+  }
+  
+  button:hover {
+    background-color: #423d39; /* Changes color on hover */
+    color: #ffffff; /* Changes text color on hover */
+  }
+  
+  
+  .testimonial-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #423d39;
+    margin-bottom: 15px;
+  }
+  
+  .testimonial-description {
+    font-size: 14px;
+    color: #8f8f8f;
+    margin-bottom: 25px;
+    line-height: 2.0; /* Increased line spacing further */
+  }
+  
+  .author-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #423d39;
+  }
+  
+  .author-title {
+    font-size: 14px;
+    color: #8f8f8f;
+  }
+  
